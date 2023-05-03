@@ -5,47 +5,136 @@ import { Link } from 'react-router-dom';
 function Order(props) {
     return (
         <div className='order-page'>
-            <div className="order-form">
-            <div className="order-form-head" style={{backgroundColor:'burlywood',height:'65px'}}>
-                <h2>WELCOME TO ITALIAN PIZZA!</h2>
-                <small>We deliver pizza in 40 minutes max. If not - Pizza's on us!</small>
-            </div>
-            <div style={{textAlign:'left'}} className="order-form-fields">
-               <p>Email</p>
-               <input style={{width:'60%',height:'30px', border:'none'}} type="text" /> <br /><br />
+           
+     <div class="card" style={{ maxWidth: "500px" }}>
+      <div style={{width:'100%',backgroundColor:'#FA8072',color:'white'}}>
+    <h2><b>Welcome to the Italian Pizza</b></h2>
+    <small> <i>We deliver pizza within 40 min max. If not your pizza is on us ..</i> </small><br/><br/><br/>
+    </div>
+  <div class="card-body">
+    
+    
+  <form >
+              <div class="form-group">
+                <label for="email"><b>Email address</b></label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  placeholder="Enter email" required
+                />
+              </div>
+              <div class="form-group">
+                <label for="phone"><b>Phone number</b></label>
+                <input
+                  type="tel"
+                  class="form-control"
+                  id="phone"
+                  placeholder="Enter phone number" required
+                />
+              </div>
+              <div class="form-group">
+                <label for="phone"><b>Pizza Slices</b></label>
+                <input
+                  type="tel"
+                  class="form-control"
+                  id="phone"
+                  placeholder="Number of slices" required
+                />
+              </div>
+             
+              <div class="form-group">
+                <p><b>Pizza size</b></p> 
+                <div class="form-check form-check-inline">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="size"
+                    id="8inch"
+                    value="8-inch" 
+                  />
+                  <label class="form-check-label" for="8inch">
+                    8-inch
+                  </label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="size"
+                    id="10inch"
+                    value="10-inch" 
+                  />
+                  <label class="form-check-label" for="10inch">
+                    10-inch
+                  </label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="size"
+                    id="12inch"
+                    value="12-inch"
+                  />
+                  <label class="form-check-label" for="12inch">
+                    12-inch
+                  </label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="size"
+                    id="14inch"
+                    value="14-inch"
+                  />
+                  <label class="form-check-label" for="14inch">
+                    14-inch
+                  </label>
+                </div>
+              </div>
 
-               <p>Phone</p>
-                <div className="input-field" >
+              <p><b>Toppins</b></p>
+              <div class="form-check form-check-inline">
+                <input type="checkbox" class="form-check-input" id="terms" required/>
+                <label class="form-check-label" for="terms">
+                  I agree 
+                </label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input type="checkbox" class="form-check-input" id="terms" required/>
+                <label class="form-check-label" for="terms">
+                  I agree 
+                </label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input type="checkbox" class="form-check-input" id="terms" required/>
+                <label class="form-check-label" for="terms">
+                  I agree 
+                </label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input type="checkbox" class="form-check-input" id="terms" required/>
+                <label class="form-check-label" for="terms">
+                  I agree 
+                </label>
+              </div><br/><br/>
 
-                    <input placeholder='Area' style={{width:'20%' ,height:'30px',border:'none',boxShadow:'0 0 2px gainsboro'}} type="text" />&nbsp;&nbsp;
-                  
-                    <input placeholder='Local' style={{width:'20%' ,height:'30px',border:'none',boxShadow:'0 0 2px gainsboro'}} type="text" />&nbsp;&nbsp;
-                    <input placeholder='Local' style={{width:'20%' ,height:'30px',border:'none',boxShadow:'0 0 2px gainsboro'}} type="text" />
-                </div><br />
-                <p>Number of slices</p>
-                <input type="text" style={{width:'60%',height:'30px'}} /> <br /><br />
-                <div className='radio'>
-                <p>Pizza Size</p>
-                <input type="radio" name="r" id="" />&nbsp;<label>8-inch</label>&nbsp;
-                <input type="radio" name="r" id="" />&nbsp;<label>10-inch</label>&nbsp;
-                <input type="radio" name="r" id="" />&nbsp;<label>12-inch</label>&nbsp;
-                <input type="radio" name="r" id="" />&nbsp;<label>14-inch</label>&nbsp;
-                </div><br />
-                <div className='radio'>
-                <p>Toppins</p>
-                <input type="checkbox" name="r" id="" />&nbsp;<label>8-inch</label>&nbsp;
-                <input type="checkbox" name="r" id="" />&nbsp;<label>10-inch</label>&nbsp;
-                <input type="checkbox" name="r" id="" />&nbsp;<label>12-inch</label>&nbsp;
-                <input type="checkbox" name="r" id="" />&nbsp;<label>14-inch</label>&nbsp;
-                </div><br />
 
-                <span style={{color:"red"}}>*</span><input type="checkbox" name="" id="" />&nbsp;<label htmlFor="">I agree to the TERMS AND CONDITIONS</label>
-            </div>
-            </div>
-            <Link to='/orderSuccess'>
-            <button className='order-button' style={{background:'brown',color:'white'}}>Order Now</button>
-            </Link>
-
+              <div class="form-check ">
+                <input type="checkbox" class="form-check-input" id="terms" required/>
+                <label class="form-check-label" for="terms">
+                  I agree to the terms and conditions
+                </label>
+              </div> <br/>
+              <button type="submit" class="btn btn-primary btn-lg custom-button">
+                Order Now
+              </button>
+            </form>
+  </div>
+</div>
+     
         </div>
     );
 }
