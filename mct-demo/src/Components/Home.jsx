@@ -91,7 +91,7 @@ export default function Home() {
               <h1 className="form-head">DELEVERY TO THE</h1>
               <h1 className="form-head head2">DOORSTEP</h1>
               <div className="form-text">
-               <p>{">"}</p>
+                <p>{">"}</p>
                 <p>Choose your ingredients</p>
               </div>
               <div className="form-text">
@@ -121,7 +121,7 @@ export default function Home() {
       <div className="pizzaCards" style={{ paddingTop: '50px', paddingBottom: '50px' }}>
         {
           state && state.map((element) => {
-            return (<div className="card">
+            return (<div className="Pcard">
               <div className="part-1">
                 <div style={{ height: '200px' }} className="card-pizza-image">
                   <img style={{ height: '170px', width: '170px', borderRadius: '50%' }} src={element.linkImagen} alt={element.descripcion} />
