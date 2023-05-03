@@ -99,25 +99,25 @@ function Order(props) {
               <div class="form-check form-check-inline">
                 <input type="checkbox" class="form-check-input" id="terms" required/>
                 <label class="form-check-label" for="terms">
-                  I agree 
+                 Peperoni 
                 </label>
               </div>
               <div class="form-check form-check-inline">
                 <input type="checkbox" class="form-check-input" id="terms" required/>
                 <label class="form-check-label" for="terms">
-                  I agree 
+                  Onions 
                 </label>
               </div>
               <div class="form-check form-check-inline">
                 <input type="checkbox" class="form-check-input" id="terms" required/>
                 <label class="form-check-label" for="terms">
-                  I agree 
+                  Muahroom 
                 </label>
               </div>
               <div class="form-check form-check-inline">
                 <input type="checkbox" class="form-check-input" id="terms" required/>
                 <label class="form-check-label" for="terms">
-                  I agree 
+                 Sausage 
                 </label>
               </div><br/><br/>
 
