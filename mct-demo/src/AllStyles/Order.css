@@ -33,3 +33,6 @@
     border: none;
     box-shadow: 0 0 5px gainsboro;
 }
+.custom-button {
+  width: 100%; /* set your desired width here */
+}
