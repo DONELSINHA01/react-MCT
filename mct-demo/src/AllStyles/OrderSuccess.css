@@ -1,0 +1,34 @@
+.container {
+    position: relative;
+    width: 500px;
+    height: 300px;
+    margin: 0 auto;
+    
+  }
+
+
+  .myScooter{
+    width: 100vw;
+    height: 100vh;
+
+  }
+  .road {
+   
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+
+    right: 100%;
+    width: 100%;
+    height: 20px;
+    background: linear-gradient(to right, #fff 0%, #fff 40%, #a4a4a4 45%, #a4a4a4 55%, #fff 60%, #fff 100%);
+    background-repeat: repeat-x;
+    animation: road 1s linear infinite;
+  }
+  
+  @keyframes road {
+   100%{
+    transform: translateX(-340px);
+   }
+  }
+  

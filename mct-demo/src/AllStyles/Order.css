@@ -1,0 +1,35 @@
+.order-page{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('https://www.blogenium.com/wp-content/uploads/2019/10/Blogenium-food-wallpaper2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    position: relative;
+
+}
+.order-form{
+    position: absolute;
+    left: 50px;
+    top: 50px;
+    width: 440px;
+    background-color: gainsboro;
+    height: 450px;
+    box-shadow: 0 0 5px gainsboro;
+
+}
+
+.order-form-fields{
+    margin: 10px;
+}
+
+.order-button{
+    position: absolute;
+    width: 440px;
+    top: 510px;
+    left: 50px;
+    height: 50px;
+    border: none;
+    box-shadow: 0 0 5px gainsboro;
+}
