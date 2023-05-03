@@ -128,9 +128,13 @@ function Order(props) {
                   I agree to the terms and conditions
                 </label>
               </div> <br/>
+             
+               <Link to={'/orderSuccess'}>
               <button type="submit" class="btn btn-primary btn-lg custom-button">
                 Order Now
               </button>
+              </Link>
+
             </form>
   </div>
 </div>
