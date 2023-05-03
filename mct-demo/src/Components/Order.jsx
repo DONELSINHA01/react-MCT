@@ -97,25 +97,25 @@ function Order(props) {
 
               <p><b>Toppins</b></p>
               <div class="form-check form-check-inline">
-                <input type="checkbox" class="form-check-input" id="terms" required/>
+                <input type="checkbox" class="form-check-input" id="terms" />
                 <label class="form-check-label" for="terms">
                  Peperoni 
                 </label>
               </div>
               <div class="form-check form-check-inline">
-                <input type="checkbox" class="form-check-input" id="terms" required/>
+                <input type="checkbox" class="form-check-input" id="terms" />
                 <label class="form-check-label" for="terms">
                   Onions 
                 </label>
               </div>
               <div class="form-check form-check-inline">
-                <input type="checkbox" class="form-check-input" id="terms" required/>
+                <input type="checkbox" class="form-check-input" id="terms" />
                 <label class="form-check-label" for="terms">
                   Muahroom 
                 </label>
               </div>
               <div class="form-check form-check-inline">
-                <input type="checkbox" class="form-check-input" id="terms" required/>
+                <input type="checkbox" class="form-check-input" id="terms" />
                 <label class="form-check-label" for="terms">
                  Sausage 
                 </label>
