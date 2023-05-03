@@ -91,15 +91,15 @@ export default function Home() {
               <h1 className="form-head">DELEVERY TO THE</h1>
               <h1 className="form-head head2">DOORSTEP</h1>
               <div className="form-text">
-                <img src="http://www.clipartbest.com/cliparts/ndT/8Xb/ndT8Xbqie.png" width='24px' />
+               <p>{">"}</p>
                 <p>Choose your ingredients</p>
               </div>
               <div className="form-text">
-                <img src="http://www.clipartbest.com/cliparts/ndT/8Xb/ndT8Xbqie.png" width='24px' />
+                <p>{">"}</p>
                 <p>Get free delivery 24/7</p>
               </div>
               <div className="form-text">
-                <img src="http://www.clipartbest.com/cliparts/ndT/8Xb/ndT8Xbqie.png" width='24px' />
+                <p>{">"}</p>
                 <p>Special gift coupons</p>
               </div>
               <input style={{ width: '50%', height: '15%', border: 'none' }} type="text" name="" id="" placeholder="Email..." />&nbsp;
